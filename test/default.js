@@ -18,7 +18,7 @@
 				  shop 		: 'pasito-stage'
 				, key 		: 'api key'
 				, secret 	: 'secret'
-				, token 	: 'b3e09347c18e1a1b7773e8d7256e2d8b'
+				, token 	: ''
 			});
 
 			log(shop);
