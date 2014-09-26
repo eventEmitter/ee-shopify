@@ -20,7 +20,11 @@
         , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.2.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-async"                : "0.3.x"
+        , "ee-argv"                 : "0.1.x"
         , "ee-project"              : "0.2.x"
+        , "request"                 : "2.44.0"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
@@ -28,7 +32,6 @@
     }
     , "optionalDependencies": {}
     , "keywords"                    : []
-    , "private"                     : true
     , "scripts": {
         "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
     }
