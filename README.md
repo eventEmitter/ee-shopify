@@ -15,7 +15,7 @@ Suppoorts all APIs and all standard methods.
 
 ## usage
 
-The wrapper is 
+
 
 ### Constructor
 
@@ -64,7 +64,7 @@ a callback which receives an error object as parameter 1 and a data object as pa
     });
 
 
-### Storing enw Data
+### Storing new Data
 
     new myShop.order({}).save(function(err, data) {
         if (err) log(err);
@@ -88,25 +88,25 @@ You may also request data without the need to use the api wrapper, you may use t
     });
 
 
-#### POST Request `get(URL, [data], callback);`
+#### POST Request `post(URL, [data], callback);`
     
-    myShop.get('/orders/{id}.json', {key: value}, function(err, data) {
+    myShop.post('/orders/{id}.json', {key: value}, function(err, data) {
         if (err) log(err);
         else log(data);     // data without envelope
     });
 
 
-#### PUT Request `get(URL, [data], callback);`
+#### PUT Request `put(URL, [data], callback);`
     
-    myShop.get('/orders/{id}.json', function(err, data) {
+    myShop.put('/orders/{id}.json', function(err, data) {
         if (err) log(err);
         else log(data);     // data without envelope
     });
 
 
-#### DELETE Request `get(URL, [data], callback);`
+#### DELETE Request `delete(URL, [data], callback);`
     
-    myShop.get('/orders/{id}.json', function(err, data) {
+    myShop.delete('/orders/{id}.json', function(err, data) {
         if (err) log(err);
         else log(data);     // data without envelope
     });
