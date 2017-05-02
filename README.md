@@ -1,5 +1,7 @@
 # ee-shopify
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-shopify.svg)](https://greenkeeper.io/)
+
 Shopify API wrapper
 
 Suppoorts all APIs and all standard methods. 
